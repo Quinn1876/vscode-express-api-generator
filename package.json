@@ -10,14 +10,19 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:express-api-generator.helloWorld"
+		"onCommand:express-api-generator.selectApiFolder",
+		"onCommand:express-api-generator.createApiRoute"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "express-api-generator.helloWorld",
-				"title": "Hello World"
+				"command": "express-api-generator.selectApiFolder",
+				"title": "Select Api Folder"
+			},
+			{
+				"command": "express-api-generator.createApiRoute",
+				"title": "Create Api Route"
 			}
 		]
 	},
