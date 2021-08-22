@@ -2,6 +2,11 @@
 	"name": "express-api-generator",
 	"displayName": "express-api-generator",
 	"description": "Generate Files for Express Api Routes",
+	"publisher": "quinn1876",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Quinn1876/vscode-express-api-generator"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.59.0"
